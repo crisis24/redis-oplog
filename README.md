@@ -1,3 +1,14 @@
+#
+# THIS IS A FORK OF [ramezrafla/redis-oplog](https://github.com/ramezrafla/redis-oplog)
+Based on version 2.0.12 (commit babb09fdbcf870e44cb21e5ad5d0777f0e002b7e)
+
+It contains change specific to the Gardaworld Travel Security needs.
+Especialy a fix to work with oplogtoredis.
+
+
+# Below is the original README :
+
+
 # Welcome to the Scalable Redis Oplog
 **Note**: This a clone of the original [redis-oplog](https://github.com/cult-of-coders/redis-oplog) to make it scalable
 
