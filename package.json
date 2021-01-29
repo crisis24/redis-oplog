@@ -1,6 +1,6 @@
 {
   "name": "@crisis24/redis-oplog",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "description": "Fork of https://github.com/ramezrafla/redis-oplog",
   "main": "package.js",
   "repository": {
@@ -10,5 +10,8 @@
   "homepage": "https://github.com/crisis24/redis-oplog",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/crisis24"
+  },
+  "dependencies": {
+    "@crisis24/remote-collection": "0.0.1"
   }
 }
