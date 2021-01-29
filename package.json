@@ -1,6 +1,6 @@
 {
   "name": "@crisis24/redis-oplog",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Fork of https://github.com/ramezrafla/redis-oplog",
   "main": "package.js",
   "repository": {

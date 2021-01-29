@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 Package.describe({
   name: 'crisis24:redis-oplog',
-  version: '3.0.2',
+  version: '3.0.3',
   // Brief, one-line summary of the package.
   summary: "Replacement for Meteor's MongoDB oplog implementation",
   // URL to the Git repository containing the source code for this package.
@@ -31,9 +31,6 @@ Package.onUse(function(api) {
     'mongo-id',
     'tracker'
   ]);
-
-  api.use('all:remote-collection');
-  api.imply('all:remote-collection');
 
   api.mainModule('redis-oplog.js', 'server');
 });
